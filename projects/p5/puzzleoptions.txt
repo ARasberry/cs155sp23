@@ -1,0 +1,20 @@
+python
+bash
+shell
+concatenate
+string
+array
+static typing
+garbage collector
+console
+ram
+java
+sql
+loop
+iterations
+carbon
+cstring
+git
+compiler
+header file
+int1egrated development environment

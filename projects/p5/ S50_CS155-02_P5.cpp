@@ -1,4 +1,4 @@
-//Author: Austin Rasberry
+//Author: S50
 //Project 5
 //Date: 04-25-23
 //Plays hangman
@@ -90,7 +90,7 @@ bool OpenFile(ifstream& answerFile){
 
 void CreateAnswerArrays(ifstream& answerFile, string* answers, int& size){
 	//Reads the file into the answer array
-	for( size = 0; getline(answerFile, answers[size]) && size < MAX; ++size);
+	for(int size = 0; getline(answerFile, answers[size]) && size < MAX; ++size);
 }
 int ChoosePuzzle(bool* usedAr){
 	//The index for the arrays
